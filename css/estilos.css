@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+}
+.menu{
+    vertical-align:middle;
+    position: absolute;
+    width: 100%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    display: inline;
+}
+
+ul{
+    position:absolute;
+    top:30px;
+    right: 2%;
+}
+
+li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.cabezote{
+    background-image: url("/recursos/Fondo1.jpg");
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    margin: 0;
+    padding: 200px 0px;
+    z-index: -1;
+    position: relative;
+}
+
+.cabezote h1{
+    text-align: center;
+    color: white;
+    padding: 10px 200px;
+}
+.cabezote p{
+    text-align: center;
+    color: white;
+    padding: 10px 400px;
+}
+
+.descripcion1,
+.descripcion2{
+    height: 450px;
+    width:50%;
+    display: inline;
+    float: left;
+    padding: 150px;
+}
+
+.llamado1{
+    width: 100%;
+    height: 250px;
+    padding: 150px 200px;
+    padding-bottom: 250px;
+    text-align: center;
+    float: left;
+}
+
+.servicio1, .servicio2, .servicio3, .servicio4{
+    vertical-align:middle;
+    width: 50%;
+    float: left;
+    padding: 50px;
+    text-align: center;
+}
+
+.servicio1 p, .servicio2 p, .servicio3 p, .servicio4 p{
+    padding: 10px 20px;
+}
+
+.icon{
+    float: left;
+    padding: 0 20px;
+
+}
